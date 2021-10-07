@@ -1,6 +1,5 @@
 import math
 
-
 while True:
     try:
         year = int(input("Enter year: "))
