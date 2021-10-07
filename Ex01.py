@@ -1,3 +1,17 @@
-print("Test EX01")
-print("Test EX01 again")
-print("Test EX01 again 2")
+import math
+
+
+
+while True:
+    try:
+        year = int(input("Enter year: "))
+        break
+    except:
+            print("That's not a valid option!")
+
+century = year/100
+result = math.ceil(century)
+
+
+
+print("Century is ",result)
