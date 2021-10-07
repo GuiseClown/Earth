@@ -1,2 +1,5 @@
-print("Test EX02")
-print("Test EX02 02")
+
+
+X = str(input("Enter year: "))
+
+print(X)
