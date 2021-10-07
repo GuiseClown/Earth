@@ -5,8 +5,8 @@ while True:
     if not s.isalpha():
         print("Please input only String.")
         continue
-    if len(s) > 10000:
-        print("Please input the length String between 1 and 10000")
+    if len(s) > 100000:
+        print("Please input the length String between 1 and 100000")
         continue
     break
     
